@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card"
 const offerings = [
   {
     icon: Wrench,
-    title: "Åpent makerspace og verksted",
-    description: "Åpent makerspace og verksted for ungdom, i samarbeid med kommune og skole.",
+    title: "Makerspace og verksted",
+    description: "Makerspace og verksted for ungdom, i samarbeid med kommune og skole.",
   },
   {
     icon: GraduationCap,
@@ -15,7 +15,7 @@ const offerings = [
   {
     icon: Briefcase,
     title: "Betalte mikro-oppdrag",
-    description: "Mulighet for betalte mikro-oppdrag fra lokalt næringsliv og organisasjoner.",
+    description: "Mulighet for betalte mikro-oppdrag fra NIMMS, lokalt næringsliv og organisasjoner.",
   },
   {
     icon: Users,

@@ -108,9 +108,9 @@ export default function Vedtekter() {
 
             {/* §5A */}
             <div className="animate-fade-in">
-              <h3 className="font-heading text-2xl font-bold text-[#0A4CA6] mb-3">§5A – Praksis (YFF) gjennom ungdomsbedrift</h3>
+              <h3 className="font-heading text-2xl font-bold text-[#0A4CA6] mb-3">§5A – Praksisplass (YFF) gjennom ungdomsbedrift</h3>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>NIMMS tilrettelegger for praksis (Yrkesfaglig fordypning, YFF) i samarbeid med Nesodden videregående skole gjennom ungdomsbedriften Media i Praksis UB, etablert via Ungt Entreprenørskap.</li>
+                <li>NIMMS tilrettelegger for praksisplass (Yrkesfaglig fordypning, YFF) i samarbeid med Nesodden videregående skole gjennom ungdomsbedriften Media i Praksis UB, etablert via Ungt Entreprenørskap.</li>
                 <li>YFF-praksis er ikke lønnet, og inngår som del av elevens opplæring. Arbeidsoppgaver skal være relevante for kompetansemål i programfag/yrkesfag og avtales skriftlig mellom skole, elev/foresatt (der det er aktuelt), praksissted og NIMMS.</li>
                 <li>Skolen har det overordnede opplæringsansvaret, herunder forsikring og vurdering. NIMMS stiller med veiledning, oppdragsrammer og kvalitetssikring, og kan formidle små oppdrag fra lokalt næringsliv og organisasjoner til ungdomsbedriften.</li>
                 <li>Styret kan fastsette egne retningslinjer for YFF-praksis (taushet, HMS, personvern, åndsverk, kundehåndtering, timeføring, kvalitet).</li>

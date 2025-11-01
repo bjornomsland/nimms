@@ -18,18 +18,23 @@ export default function About() {
               </p>
               <p className="text-lg text-[#1E1E1E] leading-relaxed">
                 NIMMS tilbyr et inkluderende miljø hvor ungdom får lære, utforske og samarbeide med lokale aktører i
-                reelle prosjekter.
+                reelle oppdrag og prosjekter.
               </p>
             </div>
 
-            <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl hover-lift image-overlay-blue">
+            <figure className="space-y-3">
+              <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl hover-lift image-overlay-blue">
               <Image
                 src="/images/team-photo.jpg"
                 alt="NIMMS team og mentorer ved laserskjærer"
                 fill
                 className="object-cover"
               />
-            </div>
+              </div>
+              <figcaption className="text-sm text-[#6B7280] leading-tight">
+              fv. Bjørn Omsland (Nesodden vgs), Oscar Honeyman-Novotny (prosjektkoordinator Nesodden kommune) og Odd Petter Fylling (Næringsrådgiver Nesodden kommune) har første idèutviklingsmøte torsdag 30.oktober 2025.
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>

@@ -1,16 +1,35 @@
 import { GraduationCap, Briefcase, Heart } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 
+const Lightbulb = (props: any) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth={props.strokeWidth ?? 2}
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={props.className}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M9 18h6" />
+    <path d="M10 22h4" />
+    <path d="M12 2a6 6 0 0 0-6 6c0 3.3 2.4 4.9 3 6v2a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2c.6-1.1 3-2.7 3-6a6 6 0 0 0-6-6z" />
+  </svg>
+)
+
 const audiences = [
   {
     icon: GraduationCap,
     title: "For ungdom",
-    description: "Lær og skap noe nytt! Få erfaring, oppdrag og praksis. Din kunnskap og skaperlyst kan gjøre en forskjell for lokalt næringsliv.",
+    description:
+      "Lær og skap noe nytt! Få erfaring, oppdrag og praksis. Din kunnskap og skaperlyst kan gjøre en forskjell for lokalt næringsliv.",
   },
   {
     icon: Heart,
     title: "For mentorer",
-    description: "Del din erfaring og inspirer neste generasjon skapere. Din innsats styrker lokalt engasjement, innovasjon og næringsliv på Nesodden.",
+    description:
+      "Få tilgang til utstyr. Del din erfaring og inspirer neste generasjon skapere. Din innsats styrker lokalt engasjement, innovasjon og næringsliv på Nesodden.",
   },
   {
     icon: Briefcase,
@@ -19,7 +38,7 @@ const audiences = [
       "Samarbeid med NIMMS og gi ungdom reelle prosjekter og oppdrag – samtidig som dere får kreative medieproduksjoner og teknologiske bidrag tilbake.",
   },
   {
-    icon: Briefcase,
+    icon: Lightbulb,
     title: "For ungdomsbedrifter og gründere",
     description:
       "Realiser deres ideer. Få tilgang til utstyr, veiledning og et kreativt miljø for å utvikle deres prototyper til salgbare produkter.",

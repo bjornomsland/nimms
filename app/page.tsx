@@ -8,6 +8,7 @@ import Contact from "@/components/contact"
 import Poster from "@/components/poster"
 import Vedtekter from "@/components/vedtekter"
 import Footer from "@/components/footer"
+import Activities from "@/components/activities"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Offerings />
       <EquipmentGallery />
       <ForWho />
+      <Activities />
       <Contact />
       <Poster />
       <Vedtekter />
