@@ -40,7 +40,7 @@ const activities = [
   {
     title: "Robotbil-løp",
     date: "26. november 2025",
-    image: "/images/robot-car-race.jpg",
+    image: "/images/robot-car-race-01.jpg",
     description: "Hvilken robotbil er raskest gjennom hinderløypa? Meld deg på med din egen robotbil eller bygg en hos oss. Bilene våre bruker Arduino UNO mikrokontroller og programmeres i C+.",
   },
   {

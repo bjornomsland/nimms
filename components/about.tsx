@@ -25,7 +25,7 @@ export default function About() {
             <figure className="space-y-3">
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl hover-lift image-overlay-blue">
               <Image
-                src="/images/team-photo.jpg"
+                src="/images/bjorn-oscar-odd-nimms.jpg"
                 alt="NIMMS team og mentorer ved laserskjærer"
                 fill
                 className="object-cover"
