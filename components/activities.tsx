@@ -8,6 +8,18 @@ const activities = [
     description: "Lær å modellere og printe egne 3D-objekter. Ta med egen laptop eller bruk våre maskiner."
   },
   {
+    title: "Møbelsnekker-kveld",
+    date: "0. november 2025",
+    image: "/images/mobelsnekker.png",
+    description: "Drømmer du om å lage dine egne møbler og har en idè. Da er dette kvelden for deg. Tore og Lise jobber som møbelsnekker og viser deg hvordan du kommer i gang."
+  },
+  {
+    title: "Laser til dekorasjon workshop",
+    date: "0. desember 2025",
+    image: "/images/laser02.png",
+    description: "Laserskjærer er fantastisk til å lage dekorasjoner og gravering. Perfekt til julegaver, logoer for bedrifter eller visuell utsmykking."
+  },
+  {
     title: "Robotikk-kveld",
     date: "19. november 2025",
     image: "/images/robotics-projects.jpg",
@@ -29,13 +41,19 @@ const activities = [
     title: "Robotbil-løp",
     date: "26. november 2025",
     image: "/images/robot-car-race.jpg",
-    description: "Hvilken robotbil er raskest gjennom hinderløypa? Meld deg på med din egen robotbil eller bygg en hos oss.",
+    description: "Hvilken robotbil er raskest gjennom hinderløypa? Meld deg på med din egen robotbil eller bygg en hos oss. Vi bruker Arduino UNO mikrokontroller og programmerer i C+.",
+  },
+  {
+    title: "LeRebot prosjekt",
+    date: "0-. januar 2025",
+    image: "/images/LeRobotJan.png",
+    description: "Bli med på vårt LeRobot-prosjekt! Her får du bygge og trene din egen robotarm med AI og Visual Language Actions (VLA). Du lærer hvordan teknologi, programmering og AI smelter sammen – og får praktisk erfaring med fremtidens verktøy for automatisering og skapende teknologi.",
   },
   {
     title: "Oppdrag Nesodden 2026",
     date: "Søndag 7. juni 2026",
     image: "/images/DieHardWaterRiddle.jpg",
-    description: "Norges morsomste rebusløp! Et unikt konsept hvor kreative oppgaver utviklet fra NIMMS, blander teknologi, innovasjon, aktivitet og moro."
+    description: "Norges morsomste rebusløp! Et unikt konsept hvor kreative oppgaver utviklet fra NIMMS, blander teknologi, innovasjon, aktivitet og moro. Perfekt arena for å vise frem dine prosjekter til Nesoddens innbyggere og lokalt næringsliv."
   },
 ]
 

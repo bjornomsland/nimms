@@ -37,6 +37,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="no" className={`${openSans.variable} ${montserrat.variable}`}>
+      <head>
+        <link rel="icon" href="/images/favicon-16x16.png" sizes="16x16" />
+        <link rel="icon" href="/images/favicon-32x32.png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+        <link rel="manifest" href="/images/site.webmanifest" />
+      </head>
       <body className="font-sans antialiased">{children}</body>
     </html>
   )
