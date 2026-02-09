@@ -174,7 +174,7 @@ export default function Vedtekter() {
               </p>
               <p className="leading-relaxed mb-3">Årsmøtet skal:</p>
               <ol className="list-decimal list-inside space-y-2 ml-4">
-                <li>Godkjenne årsrapporten og regnskapene.</li>
+                <li>Godkjenne årsrapport og regnskap.</li>
                 <li>Vedta budsjett og strategi.</li>
                 <li>Velge styre.</li>
                 <li>Behandle innkomne forslag.</li>

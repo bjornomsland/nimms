@@ -1,0 +1,23 @@
+# Ignorer lokale avhengigheter (disse installeres på serveren i stedet)
+node_modules/
+
+# Ignorer bygg-filer som lages lokalt
+.next/
+out/
+build/
+
+# Ignorer versjonskontroll
+.git/
+.gitignore/
+
+# Ignorer logger
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Ignorer OS-spesifikke filer
+.DS_Store
+
+# Ignorer miljøvariabler (hvis du har sensitive data lokalt)
+.env*.local
